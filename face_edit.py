@@ -65,7 +65,6 @@ from keras.layers.advanced_activations import ELU
 from keras.preprocessing.image import ImageDataGenerator
 from keras.utils import plot_model
 from keras import backend as K
-from custom_layers import BinaryEncoder
 K.set_image_data_format('channels_first')
 
 print "Loading Encoder..."
