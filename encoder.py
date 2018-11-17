@@ -61,7 +61,6 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.regularizers import l1
 from keras.utils import plot_model
 from keras import backend as K
-from custom_layers import BinaryEncoder, PATCON
 K.set_image_data_format('channels_first')
 
 if CONTINUE_TRAIN:
